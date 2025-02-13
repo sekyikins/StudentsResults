@@ -21,6 +21,14 @@ body {
     overflow-y: overlay;
 }
 
+@media (max-width: 600px) /* Adjustment for smaller screens */ {
+    .container {
+        width: 65%;
+        padding: 20px;
+        padding-right: 40px;
+    }
+}
+
 .container::-webkit-scrollbar {
     width: 12px;
 }
