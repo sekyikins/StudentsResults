@@ -40,11 +40,11 @@ document.getElementById('studentForm').addEventListener('submit', function (even
         }
 
         if ((fees >= 100) && (passed || condoned)) {
-            result += " - You also have your certificate <b>Granted</b>";
+            result += " - You also have your <b>Certificate Granted</b>";
         } else if((fees >= 100) && !(passed && condoned)) {
-            result += " - You also have your certificate <b>Not Granted</b> owing to the fact that you have failed the course";
+            result += " - You also have your <b>Certificate Not Granted</b> owing to the fact that you have failed the course";
         } else if (fees < 100) {
-            result += " - You also have your certificate <b>Not Granted</b> owing to the fact that you have not paid the fees";
+            result += " - You also have your <b>Certificate Not Granted</b> owing to the fact that you have not paid the fees";
         }
 
         resultsDiv.innerHTML += `<p>${result}</p>`;
