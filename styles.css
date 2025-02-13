@@ -12,11 +12,12 @@ body {
 .container {
     background-color: #fff;
     padding: 20px;
+    padding-right: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(2, 2, 0, 1);
     width: 400px;
     text-align: center;
-    max-height: 80vh;
+    max-height: 85vh;
     overflow-y: overlay;
 }
 
@@ -83,6 +84,5 @@ button:hover {
 }
 
 #results {
-    margin-top: 20px;
-    
+    margin-top: 20px; 
 }
